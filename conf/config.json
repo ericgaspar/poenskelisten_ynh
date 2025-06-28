@@ -1,21 +1,24 @@
-port: '__PORT__', 	integer 	Which port Pønskelisten starts on.
-externalurl 	string 	The URL others would use to access Pønskelisten.
-timezone 	string 	The timezone Pønskelisten uses. Given in the TZ database name format. List can be found here.
-environment 	string 	The environment Pønskelisten is running in. It will behave differently in 'test'.
-testemail 	string 	The email all emails are sent to in test mode.
-name:'Pønskelisten',
-generateinvite: false
-dbport
-dbtype:'mysql',
-dbusername:'__DB_USER__',
-dbpassword:'__DB_PWD__',
-dbname:'__DB_NAME__',
-dbip,'localhost',
-dbssl
-dblocation
-disablesmtp:true,
-smtphost:localhost,
-smtpport:25,
-smtpusername:'__APP__',
-smtppassword:'',
-smtpfrom
+{
+"timezone": "Europe/Berlin",
+"private_key": "8a09b33ea4141b4e8101d7917491f9e8",
+"db_type": "mysql",
+"db_username": "__DB_USER__",
+"db_password": "__DB_PWD__",
+"db_name": "__DB_NAME__",
+"db_ip": "db",
+"db_port": 3306,
+"db_ssl": false,
+"db_location": "",
+"poenskelisten_port": __PORT__,
+"poenskelisten_name": "Pønskelisten",
+"poenskelisten_external_url": "",
+"poenskelisten_version": "v2.0.3",
+"poenskelisten_currency": "$",
+"poenskelisten_currency_pad": false,
+"smtp_enabled": false,
+"smtp_host": "localhost",
+"smtp_port": 25,
+"smtp_username": "__APP__",
+"smtp_password": "mypassword",
+"smtp_from": ""
+}
