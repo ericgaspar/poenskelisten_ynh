@@ -1,0 +1,21 @@
+port: '__PORT__', 	integer 	Which port Pønskelisten starts on.
+externalurl 	string 	The URL others would use to access Pønskelisten.
+timezone 	string 	The timezone Pønskelisten uses. Given in the TZ database name format. List can be found here.
+environment 	string 	The environment Pønskelisten is running in. It will behave differently in 'test'.
+testemail 	string 	The email all emails are sent to in test mode.
+name:'Pønskelisten',
+generateinvite: false
+dbport
+dbtype:'mysql',
+dbusername:'__DB_USER__',
+dbpassword:'__DB_PWD__',
+dbname:'__DB_NAME__',
+dbip,'localhost',
+dbssl
+dblocation
+disablesmtp:true,
+smtphost:localhost,
+smtpport:25,
+smtpusername:'__APP__',
+smtppassword:'',
+smtpfrom
