@@ -44,6 +44,7 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
+    in_subdie=false
     url = "https://github.com/aunefyren/poenskelisten/releases/download/v2.1.4/poenskelisten--linux-amd64.tar.gz"
     sha256 = "d76c1c5477ceb9dceb0be4ab24de103224e27084a7828299b65226d12f20b1f7"
 
