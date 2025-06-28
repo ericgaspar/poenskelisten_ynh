@@ -13,7 +13,7 @@
 "poenskelisten_name": "Pønskelisten",
 "poenskelisten_external_url": "",
 "poenskelisten_version": "v2.1.4",
-"poenskelisten_currency": "$",
+"poenskelisten_currency": "€",
 "poenskelisten_currency_pad": false,
 "poenskelisten_environment": "production",
 "smtp_enabled": false,
