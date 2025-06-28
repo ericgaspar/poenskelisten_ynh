@@ -12,13 +12,14 @@
 "poenskelisten_port": __PORT__,
 "poenskelisten_name": "Pønskelisten",
 "poenskelisten_external_url": "",
-"poenskelisten_version": "v2.0.3",
+"poenskelisten_version": "v2.1.4",
 "poenskelisten_currency": "$",
 "poenskelisten_currency_pad": false,
+"poenskelisten_environment": "production",
 "smtp_enabled": false,
 "smtp_host": "localhost",
 "smtp_port": 25,
 "smtp_username": "__APP__",
-"smtp_password": "mypassword",
+"smtp_password": "__MAIL_PWD__",
 "smtp_from": ""
 }
