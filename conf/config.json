@@ -1,6 +1,5 @@
 {
 "timezone": "Europe/Berlin",
-"private_key": "8a09b33ea4141b4e8101d7917491f9e8",
 "db_type": "mysql",
 "db_username": "__DB_USER__",
 "db_password": "__DB_PWD__",
@@ -9,6 +8,7 @@
 "db_port": 3306,
 "db_ssl": false,
 "db_location": "",
+"generateinvite": true,
 "poenskelisten_port": __PORT__,
 "poenskelisten_name": "Pønskelisten",
 "poenskelisten_external_url": "",
