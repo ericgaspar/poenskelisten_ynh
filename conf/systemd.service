@@ -7,7 +7,8 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/poenskelisten -port __PORT__ -dbip 127.0.0.1 -dbusername __DB_USER__ -dbname __DB_NAME__ -dbpassword __DB_PWD__
+ExecStart=__INSTALL_DIR__/poenskelisten
+#-port __PORT__ -dbip 127.0.0.1 -dbusername __DB_USER__ -dbname __DB_NAME__ -dbpassword __DB_PWD__
 
 
 #StandardOutput=append:/var/log/__APP__/__APP__.log
