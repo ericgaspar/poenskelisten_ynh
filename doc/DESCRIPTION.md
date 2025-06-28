@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+A website-based application for sharing and collaborating on wishlists and presents. The main goal is to allow the sharing of wishlists and the claiming gift ideas without the recipient knowing what they are receiving.

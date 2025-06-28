@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Une application basée sur un site web pour partager et collaborer sur des listes de souhaits et des cadeaux. L'objectif principal est de permettre le partage de listes de souhaits et de réclamer des idées de cadeaux sans que le destinataire ne sache ce qu'il reçoit.
